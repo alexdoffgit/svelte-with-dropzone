@@ -9,13 +9,18 @@
 </script>
 
 <div class="container">
-	<div use:dropzoneAction></div>
+	<div use:dropzoneAction class="dropzone"></div>
 </div>
 
 <style>
 	.container {
-		border: 1px solid black;
-		width: 300px;
-		height: 300px;
+		width: 400px;
+		height: 400px;
 	}
+
+	.dropzone {
+		width: inherit;
+		height: inherit;
+	}
+
 </style>
