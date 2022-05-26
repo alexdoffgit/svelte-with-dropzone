@@ -1,5 +1,7 @@
 <script>
 	import Dropzone from "dropzone";
+	import "dropzone/dist/basic.css";
+	import "dropzone/dist/dropzone.css";
 
 	function dropzoneAction(node) {
 		let svd = new Dropzone(node, {
@@ -22,5 +24,4 @@
 		width: inherit;
 		height: inherit;
 	}
-
 </style>
